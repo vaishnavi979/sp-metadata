@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitiesDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+    <EntityDescriptor entityID="https://auth.atlassian.com/saml/0bfaf2c3-9399-40d2-be13-3cca433190f4">
+        <SPSSODescriptor
+            AuthnRequestsSigned="true"
+            WantAssertionsSigned="true"
+            protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            
+            <AssertionConsumerService
+                index="1"
+                isDefault="true"
+                Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                Location="https://auth.atlassian.com/login/callback?connection=saml-0bfaf2c3-9399-40d2-be13-3cca433190f4" />
+            
+            <!-- Optional: Add certificate information here if needed -->
+            <KeyDescriptor use="signing">
+                <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                    <X509Data>
+                        <!-- Add certificate here -->
+                        <X509Certificate>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7Xt1fDtdUOPl7gC9Kd8f1</X509Certificate>
+                    </X509Data>
+                </KeyInfo>
+            </KeyDescriptor>
+        </SPSSODescriptor>
+    </EntityDescriptor>
+</EntitiesDescriptor>
