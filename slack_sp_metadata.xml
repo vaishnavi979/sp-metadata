@@ -17,6 +17,6 @@
     </md:KeyDescriptor>
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://thinkpalmorg.slack.com/sso/saml/logout"/>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://thinkpalmorg.slack.com/sso/saml" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://thinkpalmorg.slack.com/sso/saml/start" index="1"/>
   </md:SPSSODescriptor>
 </md:EntityDescriptor>
