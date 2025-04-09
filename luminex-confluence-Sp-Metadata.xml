@@ -3,6 +3,6 @@
   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.atlassian.com/login/callback?connection=saml-7395c7bd-1767-45c2-bafa-1e8f18ff7511/logout"/>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.atlassian.com/login/saml/start?connection=saml-7395c7bd-1767-45c2-bafa-1e8f18ff7511" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.atlassian.com/login/callback?connection=saml-7395c7bd-1767-45c2-bafa-1e8f18ff7511" index="1"/>
   </md:SPSSODescriptor>
 </md:EntityDescriptor>
