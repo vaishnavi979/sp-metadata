@@ -19,4 +19,4 @@
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ribbonbio-workspace.slack.com/sso/saml" index="1"/>
   </md:SPSSODescriptor>
-</md:EntityDescriptor
+</md:EntityDescriptor>
