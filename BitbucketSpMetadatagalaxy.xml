@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://auth.atlassian.com/saml/d07e89cb-64f2-42c9-9785-e5acb1e1e1b0">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://auth.atlassian.com/saml/ae70e2af-dde8-4d8c-b105-c6bffceafba4">
   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.atlassian.com/login/callback?connection=saml-d07e89cb-64f2-42c9-9785-e5acb1e1e1b0/logout"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.atlassian.com/login/callback?connection=saml-ae70e2af-dde8-4d8c-b105-c6bffceafba4/logout"/>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.atlassian.com/login/callback?connection=saml-d07e89cb-64f2-42c9-9785-e5acb1e1e1b0" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.atlassian.com/login/callback?connection=saml-ae70e2af-dde8-4d8c-b105-c6bffceafba4" index="1"/>
   </md:SPSSODescriptor>
 </md:EntityDescriptor>
