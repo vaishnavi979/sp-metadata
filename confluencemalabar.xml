@@ -5,4 +5,5 @@
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.atlassian.com/login/callback?connection=saml-7894ce5f-4546-48a5-a089-e64f9c3e8fc8" index="1"/>
   </md:SPSSODescriptor>
+
 </md:EntityDescriptor>
