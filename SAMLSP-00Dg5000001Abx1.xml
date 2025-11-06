@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://orgfarm-14995be90a-dev-ed.develop.my.salesforce.com" validUntil="2035-11-04T09:44:20.211Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://orgfarm-14995be90a-dev-ed.develop.my.salesforce.com" validUntil="2035-11-04T14:35:47.507Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
    <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
@@ -31,6 +31,8 @@ mUrodYr6JoIVcQsircjVey4EsJ/9i/OL+2pJYLHbao8P9xEwd73mQsg5fNpSz2HS</ds:X509Certifi
             </ds:X509Data>
          </ds:KeyInfo>
       </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-14995be90a-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://orgfarm-14995be90a-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-14995be90a-dev-ed.develop.my.salesforce.com" index="0" isDefault="true"/>
       <md:AttributeConsumingService isDefault="true">
