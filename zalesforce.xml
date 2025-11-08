@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://orgfarm-14995be90a-dev-ed.develop.my.zalesforce.com" validUntil="2035-11-06T15:06:38.167Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+ <?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://orgfarm-14995be90a-dev-ed.develop.my.salesforce.com" validUntil="2035-11-06T16:51:00.573Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
             <ds:X509Data>
@@ -35,7 +35,7 @@ mUrodYr6JoIVcQsircjVey4EsJ/9i/OL+2pJYLHbao8P9xEwd73mQsg5fNpSz2HS</ds:X509Certifi
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-14995be90a-dev-ed.develop.my.salesforce.com" index="0" isDefault="true"/>
       <md:AttributeConsumingService isDefault="true">
          <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Salesforce.com</md:ServiceName>
-         <md:RequestedAttribute Name="User.Email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+         <md:RequestedAttribute Name="mail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
       </md:AttributeConsumingService>
    </md:SPSSODescriptor>
 </md:EntityDescriptor>
