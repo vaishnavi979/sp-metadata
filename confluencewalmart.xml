@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://auth.atlassian.com/saml/a72718b6-0570-4272-b321-ea248901c108" validUntil="2035-11-03T14:03:12.943Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAZm+hQ6nAAAAAEZbbEswDQYJKoZIhvcNAQELBQAwgZAx
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzA3T2N0MjAyNV8xMTUzMzUxGDAWBgNV
+BAsMDzAwRGdMMDAwMDBDd1FjbTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
+HhcNMjUxMDA3MTE1MzM1WhcNMjYxMDA3MDAwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
+ZlNpZ25lZENlcnRfMDdPY3QyMDI1XzExNTMzNTEYMBYGA1UECwwPMDBEZ0wwMDAw
+MEN3UWNtMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
+YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAN9CnCwuFLbhK4A5vBlZqIbaClhYfNL03Zf9ydco
+BP28Yk/5jU6k1Zz3S0j+kOX1Rnl3ENz42b+D6xxJsTQIAZsGEAnYbu9BHeIAl3jr
+KUzgL0zlXP6N+bgy6cYM1DMWIlv3idPut3lXdZAK80KlvxqDmG/yRqTHefHt5Hzi
+4/d97rUDHdfGdWEaoQLSdQMZPqO8YxP+pvEmaf2aUR8Ktgw0b1lftG4lYSRRnMkq
+52R2YboCscKh9T83UVJKWo/naIjbjRGUKpXEuynhUPA1COusIlH9dhMIy8fAlKsa
+3hT47ZypMSCfFBAsPXIJBuI7o7DL4i0EEn/0Vj8rXemLBC0CAwEAAaOCAQAwgf0w
+HQYDVR0OBBYEFN+be0KlqjWQ3nwyKDlB/flaCUXAMA8GA1UdEwEB/wQFMAMBAf8w
+gcoGA1UdIwSBwjCBv4AU35t7QqWqNZDefDIoOUH9+VoJRcChgZakgZMwgZAxKDAm
+BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzA3T2N0MjAyNV8xMTUzMzUxGDAWBgNVBAsM
+DzAwRGdMMDAwMDBDd1FjbTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
+BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGZ
+voUOpwAAAABGW2xLMA0GCSqGSIb3DQEBCwUAA4IBAQAVt01xKvv8zlrty16YAyjv
+8RFTvWAEHCcfX6IovaQrZnxH51MRbhSREZSR47VCO9bSjc5/DCBv71xdcQNKfjVY
+oYH+aT3yGgK+gzhH2IytxmB+Mfd00cqqcK45cgKjCm0eauQuX72qeJchvPR65sI/
+OMu7G+U9hgUIzy02NoHT+Jt45LxVrV2TfOlHsIot1GUq30ztkfTWgPePmBCmqan5
+wTCkxKznKWx+FZjStK5U/hcqFArPey8ab4HYKHd+/TKSRz2ImggEkyojKX5m+PVu
+GP1jG5R4fo6gH0o0zoYj68IGBnxCuVkOcaq/e2cCB1PMmXJ+PuAAASxoNOGkQhSY</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.atlassian.com/login/callback?connection=saml-a72718b6-0570-4272-b321-ea248901c108" index="0" isDefault="true"/>
+      <md:AttributeConsumingService isDefault="true">
+         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Salesforce.com</md:ServiceName>
+         <md:RequestedAttribute Name="User.Email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+</md:EntityDescriptor>
