@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://auth.atlassian.com/saml/d67ac5bd-edd4-4798-9491-32d3f06732c2">
+  <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.atlassian.com/login/callback?connection=saml-d67ac5bd-edd4-4798-9491-32d3f06732c2/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.atlassian.com/login/callback?connection=saml-d67ac5bd-edd4-4798-9491-32d3f06732c2" index="1"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
