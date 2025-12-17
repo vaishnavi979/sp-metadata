@@ -16,4 +16,4 @@
          <md:RequestedAttribute Name="IDPEmail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
       </md:AttributeConsumingService>
    </md:SPSSODescriptor>
-</md:EntityDescriptor
+</md:EntityDescriptor>
