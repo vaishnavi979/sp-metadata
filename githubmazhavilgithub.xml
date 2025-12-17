@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://github.com/orgs/Test-Thin" validUntil="2035-06-02T11:14:29.900Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIDSTCCAjGgAwIBAgIQM8ywlfuZWzHVQavBDOPs4TANBgkqhkiG9w0BAQsFADA1MQswCQYDVQQGEwJDQTESMBAGA1UEChMJUmliYm9uSURQMRIwEAYDVQQDEwlsb2NhbGhvc3QwHhcNMjUxMjE1MTEzNDU4WhcNMjYxMjE1MTEzNDU4WjA1MQswCQYDVQQGEwJDQTESMBAGA1UEChMJUmliYm9uSURQMRIwEAYDVQQDEwlsb2NhbGhvc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMbar7D3Oq1AZEuWtKhfRWgoJHA/JwXmC2CJybhKJBxzxJash3RrWPQBBxx4g8dFcYa1ZGEakZEUHHlLx7/cFHTlRZ2RTojIyW4Ljdc0SN94o8P4Kz5YrlCiXcjZkpGfq/gv6YmQxmRWuxuYPxV7YM3sae5BqyxZ/lhTgjG/iytcZa1ln6qwWVdH8a3NjKYlTj9fg5yAa7l6N8oMQ63Qx3VnTbD/zjc3VLGtsuOxjWAzK0IUEgzDN6xis+dcMNhRc4H+g0CmFSoVZ+XAJP10Mf4baLNovrzoJgIRmjzuRPQ2xZ0JUQYTYb6pxoA9JyfKbi4pN59mGEizde9PJafK+JAgMBAAGjVTBTMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAUBgNVHREEDTALgglsb2NhbGhvc3QwDQYJKoZIhvcNAQELBQADggEBAHEYLi/H75QEbnGCdbQNCkFJ3joVxwiJ0myfi2gA9w4A9sanxbQwwzYDdKdGQSq9y36H0SOEgcMp165k824OjeIwRNXjwb/mmMzeYI+n+B8P0GW3wo4EiLRNkOe1SXvOYDVsAWgB/4e5EPS++TqHjoRJyX/PmxYAF+NfK4CRk3zOK5+cuJB+psXN3RSWsEzi/PC40zu+9joEMBryhCgNQk+k0UaUSd9FF9dzR7l/FTckUjqoAecXUtWBZsiqOKH+hzlLvXIfJ+XXllQOydv3TJXKzITKaWrjTiyKbGsqtid9jZfffqdlhqTJSADrQZrl8nzYVtMZUMw/FDip1WbXW48=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://github.com/orgs/Test-Thin/saml/consume/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://orgfarm-e0158cbf60-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://github.com/orgs/Test-Thin/saml/consume" index="0" isDefault="true"/>
+      <md:AttributeConsumingService index="0" isDefault="true">
+         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Salesforce.com</md:ServiceName>
+         <md:RequestedAttribute Name="IDPEmail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+</md:EntityDescriptor
