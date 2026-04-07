@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://orgfarm-3f8e62c456-dev-ed.develop.my.salesforce.com" validUntil="2036-04-04T14:41:51.844Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIE1jCCA76gAwIBAgIOAZ1oZFdMAAAAAC9uO40wDQYJKoZIhvcNAQELBQAwgY8x
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzA3QXByMjAyNl8xNDQxMzkxGDAWBgNV
+BAsMDzAwRGdMMDAwMDBPd3JNSTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQswCQYDVQQGEwJVUzAe
+Fw0yNjA0MDcxNDQxMzlaFw0yNzA0MDcxMjAwMDBaMIGPMSgwJgYDVQQDDB9TZWxm
+U2lnbmVkQ2VydF8wN0FwcjIwMjZfMTQ0MTM5MRgwFgYDVQQLDA8wMERnTDAwMDAw
+T3dyTUkxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJh
+bmNpc2NvMQswCQYDVQQIDAJDQTELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDshhP8qMZ8Yy+lgdMBsUuRlry1oxygZf2SkTj4hat4
+LuVW+ln/4eMjgSuyHQcDpJEO1yvhwSfaqmaQo4JwfzoYwWDr/Cgp1mLiAZWj8aWA
+JKChpCmhVnKb5gUgqF6oXwZ9Ps0srF3T1onVeg2vlfFJPNnSWw17WT9mTxWUopmo
+q99uev8h2GsA1PK/x87xfdC1uKZ7Ge2/KysUPiC+bJNlV828soQffhWZHyzfy7Zm
+AP4ElX/yBnnu8xD/WrlTfH0PibeStTRkTs81Chqw6HeJYx0T40+PJLusyWsfjvC7
+9u+XXiqmLSDSFzZ91rSqeOTO+IbEqwCYJOYNy1jPDESbAgMBAAGjggEsMIIBKDAd
+BgNVHQ4EFgQUDg1dGkKqe6705Lw/ChSH6mUW3xEwKgYDVR0RBCMwIYIfU2VsZlNp
+Z25lZENlcnRfMDdBcHIyMDI2XzE0NDEzOTAPBgNVHRMBAf8EBTADAQH/MIHJBgNV
+HSMEgcEwgb6AFA4NXRpCqnuu9OS8PwoUh+plFt8RoYGVpIGSMIGPMSgwJgYDVQQD
+DB9TZWxmU2lnbmVkQ2VydF8wN0FwcjIwMjZfMTQ0MTM5MRgwFgYDVQQLDA8wMERn
+TDAwMDAwT3dyTUkxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1T
+YW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTELMAkGA1UEBhMCVVOCDgGdaGRXTAAA
+AAAvbjuNMA0GCSqGSIb3DQEBCwUAA4IBAQDoNiZYBBvVW9zmuEaXqPkp0bC7nRXY
+oEGjh1vSNyljcXwYHa3h0SheGC25EHN01PQhJxxdgPhmz6rdTGTzMbZ9QAc6V4Cm
+MfxzCbIhStpz2zmAAUNzVUwZ0e4gqm2J2XtemlVu9WwwFPSfT7Yh5ZqhsOVBHNxQ
+ti6ct8s6gTViGEWvlI+34huk//MicIvYs/VtjwnLTUdVAfcnUSegU/B38uczYL4n
+WA7K8j6uVAMTUaWUeKirJx+bxEBujYyKyiPBn2vXYLHkpbbR7wsDOghV+Z46MaAz
+l4MvrpTJVDPWOW2R+RLklirjyeFXFF4nvxbXbfI44E2nV/zVHynTPo6l</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-3f8e62c456-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://orgfarm-3f8e62c456-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-3f8e62c456-dev-ed.develop.my.salesforce.com" index="0" isDefault="true"/>
+      <md:AttributeConsumingService isDefault="true">
+         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Salesforce.com</md:ServiceName>
+         <md:RequestedAttribute Name="User.Email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+</md:EntityDescriptor>
