@@ -1,73 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://orgfarm-b941807951-dev-ed.develop.my.salesforce.com" validUntil="2036-10-25T07:03:40.047Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://orgfarm-5279fb6c2c-dev-ed.develop.my.salesforce.com" validUntil="2036-01-09T01:12:01.450Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
             <ds:X509Data>
-               <ds:X509Certificate>MIIE1jCCA76gAwIBAgIOAaFDUVisAAAAAHcI8SswDQYJKoZIhvcNAQELBQAwgY8x
-KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzE2T2N0MjAyNl8wNjA2MDYxGDAWBgNV
-BAsMDzAwRGZqMDAwMDBrajk0ZjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
-BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQswCQYDVQQGEwJVUzAe
-Fw0yNjEwMTYwNjA2MDdaFw0yNzEwMTYwMDAwMDBaMIGPMSgwJgYDVQQDDB9TZWxm
-U2lnbmVkQ2VydF8xNk9jdDIwMjZfMDYwNjA2MRgwFgYDVQQLDA8wMERmajAwMDAw
-a2o5NGYxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJh
-bmNpc2NvMQswCQYDVQQIDAJDQTELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEB
-AQUAA4IBDwAwggEKAoIBAQCHx82dNzoeSwnBu0Pbo+q27bUx4uGeQZYOd/UZC6Zx
-KfKdUVR+aikJmCMOVkIImuAh6jfdq1Ytwl1RtIKq9ZU5UcLW3A1JD6vHAf9amvDE
-ejUlhGnQjaYaO5t1/dfso9n1ooHZKMovJVbPBsDCSVVLNlB7p+e9L07TJKwvegWM
-EJl70F5QIzg7Gxpaxy2b36Wbjr/1ESlt/TtrwaVWkj4wuxGYvaVKK+YrMYqWWD+S
-hN7K+n3HbwxSNfcHfqcCNuKb9ANNcEJO2CBpYhtJSX5YE8L76KpQ5L4+9AgDpe7m
-aoL/0+nvZdyYxQC2taa3AmCHIPgK34ZZymJP6bKwY9IXAgMBAAGjggEsMIIBKDAd
-BgNVHQ4EFgQUNZhRQ/OVMtUEvlekS7YxC4v7RzEwKgYDVR0RBCMwIYIfU2VsZlNp
-Z25lZENlcnRfMTZPY3QyMDI2XzA2MDYwNjAPBgNVHRMBAf8EBTADAQH/MIHJBgNV
-HSMEgcEwgb6AFDWYUUPzlTLVBL5XpEu2MQuL+0cxoYGVpIGSMIGPMSgwJgYDVQQD
-DB9TZWxmU2lnbmVkQ2VydF8xNk9jdDIwMjZfMDYwNjA2MRgwFgYDVQQLDA8wMERm
-ajAwMDAwa2o5NGYxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1T
-YW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTELMAkGA1UEBhMCVVOCDgGhQ1FYrAAA
-AAB3CPErMA0GCSqGSIb3DQEBCwUAA4IBAQBknhhx5p7yiyLmuAd+Wypvsm6/LDWZ
-HnX7n8YWcykbQAS5UlzSLX4g0DbI7+V2/eO8rNARqhzDm2L+ZDwflHGPBk50MmFi
-aXWue27Xx9GPbtEL6yO+XLl6AyH2WgKI40tK+/WOzYL2cyiAERLYFsIGe2Jbb1B6
-glcX6vomD9UyxMiHHC2lnslug3xXfC9gAEyJppiUsKnDnn9EnRaXHLzXFfqS+LXw
-1LySKfDJ6BdAr6YpDU9oyLNGSGoOHgVvFhrlZJy6qOyMUgX4bz+WlToYoX7Ti0dc
-VkxZoPxISt/ocyk4ER6B87aVt8tWgrNmTex/ZMrluwjsvNf0G8+4Cw6+</ds:X509Certificate>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAZxC9K7DAAAAAGlP/PwwDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzA5RmViMjAyNl8xNTEwNTcxGDAWBgNVBAsMDzAwRGZqMDAwMDBKbXhpbjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjYwMjA5MTUxMDU3WhcNMjcwMjA5MTIwMDAwWjCBkDEoMCYGA1UEAwwfU2VsZlNpZ25lZNlcnRfMDlGZWIyMDI2XzE1MTA1NzEYMBYGA1UECwwPMDBEZmowMDAwMEpteGluMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJg5kJJQ4aVnxxus2cma38eE0twgG7WePuPpLt3+jCqH/MSalnL1+YJ08j9pJfv5AWm6Y9YMllxq8bj3z1Zc3kx+TyiqCNXECUdxIlWUOTij9tfyP7EqRgQXHVMCQJ0++7iw0pvOg28jSo4Go2EGEbe80vmBt/chRknHitbkPdOA0gXlaO+Cj7QwUiSNRMEh4cGQzvRcnFGgZY+kIe4XmAch7LmxBVyv+m/0tyQ6E6IPKittmmLRPHJmyevZlYMw1b9DRI3UP1J4P7340pjwxUAoPiUcEgFX2E4RSVfl8AMNQ9cisfEzsSueATXf0N6H/3790qCMgCpIblV6asKsQOsCAwEAAaOCAQAwgf0wHQYDVR0OBBYEFDhaIEiaQ+BMFHpK7yJ2G4oA4UqiMA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AUOFogSJpD4EwUekrvInYbigDhSqKhgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzA5RmViMjAyNl8xNTEwNTcxGDAWBgNVBAsMDzAwRGZqMDAwMDBKbXhpbjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGcQvSuwwAAAABpT/z8MA0GCSqGSIb3DQEBCwUAA4IBAQCTTdKUk5KjLBpIgLjqrv/f+KkDnPfLeC8ifKp6x7FdeEZfA/H/mDCrT59sQynUGZMxVBAB8yQtDmX6qu0ORnZxlx/7N59CtgkmZI9h/M5CcZiwSSkp+DC5+ewtNsxWwun7yfRi+EDWee6JvZ96q+o71B8gOTD30VvUpKUuxno2wwNJKMxNuOYLt4ETmRwpIiq8ctZpc413BuFk68ncUa/sDRKO3Tl0sjIxjVIwHjL6iJFGVznQmy9VfQbQb+AXtu5f3C3FM7eh+ms9KDBmpLzp2ccnbzkVHhftqB7ewu6HMNnU7W2OhlImyeuNXBF3MHVIOC/Bo2ID/vqJ30X5HCrK</ds:X509Certificate>
             </ds:X509Data>
          </ds:KeyInfo>
       </md:KeyDescriptor>
-      <md:KeyDescriptor use="encryption">
-         <ds:KeyInfo>
-            <ds:X509Data>
-               <ds:X509Certificate>MIIE1jCCA76gAwIBAgIOAaFDUVisAAAAAHcI8SswDQYJKoZIhvcNAQELBQAwgY8x
-KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzE2T2N0MjAyNl8wNjA2MDYxGDAWBgNV
-BAsMDzAwRGZqMDAwMDBrajk0ZjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
-BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQswCQYDVQQGEwJVUzAe
-Fw0yNjEwMTYwNjA2MDdaFw0yNzEwMTYwMDAwMDBaMIGPMSgwJgYDVQQDDB9TZWxm
-U2lnbmVkQ2VydF8xNk9jdDIwMjZfMDYwNjA2MRgwFgYDVQQLDA8wMERmajAwMDAw
-a2o5NGYxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJh
-bmNpc2NvMQswCQYDVQQIDAJDQTELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEB
-AQUAA4IBDwAwggEKAoIBAQCHx82dNzoeSwnBu0Pbo+q27bUx4uGeQZYOd/UZC6Zx
-KfKdUVR+aikJmCMOVkIImuAh6jfdq1Ytwl1RtIKq9ZU5UcLW3A1JD6vHAf9amvDE
-ejUlhGnQjaYaO5t1/dfso9n1ooHZKMovJVbPBsDCSVVLNlB7p+e9L07TJKwvegWM
-EJl70F5QIzg7Gxpaxy2b36Wbjr/1ESlt/TtrwaVWkj4wuxGYvaVKK+YrMYqWWD+S
-hN7K+n3HbwxSNfcHfqcCNuKb9ANNcEJO2CBpYhtJSX5YE8L76KpQ5L4+9AgDpe7m
-aoL/0+nvZdyYxQC2taa3AmCHIPgK34ZZymJP6bKwY9IXAgMBAAGjggEsMIIBKDAd
-BgNVHQ4EFgQUNZhRQ/OVMtUEvlekS7YxC4v7RzEwKgYDVR0RBCMwIYIfU2VsZlNp
-Z25lZENlcnRfMTZPY3QyMDI2XzA2MDYwNjAPBgNVHRMBAf8EBTADAQH/MIHJBgNV
-HSMEgcEwgb6AFDWYUUPzlTLVBL5XpEu2MQuL+0cxoYGVpIGSMIGPMSgwJgYDVQQD
-DB9TZWxmU2lnbmVkQ2VydF8xNk9jdDIwMjZfMDYwNjA2MRgwFgYDVQQLDA8wMERm
-ajAwMDAwa2o5NGYxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1T
-YW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTELMAkGA1UEBhMCVVOCDgGhQ1FYrAAA
-AAB3CPErMA0GCSqGSIb3DQEBCwUAA4IBAQBknhhx5p7yiyLmuAd+Wypvsm6/LDWZ
-HnX7n8YWcykbQAS5UlzSLX4g0DbI7+V2/eO8rNARqhzDm2L+ZDwflHGPBk50MmFi
-aXWue27Xx9GPbtEL6yO+XLl6AyH2WgKI40tK+/WOzYL2cyiAERLYFsIGe2Jbb1B6
-glcX6vomD9UyxMiHHC2lnslug3xXfC9gAEyJppiUsKnDnn9EnRaXHLzXFfqS+LXw
-1LySKfDJ6BdAr6YpDU9oyLNGSGoOHgVvFhrlZJy6qOyMUgX4bz+WlToYoX7Ti0dc
-VkxZoPxISt/ocyk4ER6B87aVt8tWgrNmTex/ZMrluwjsvNf0G8+4Cw6+</ds:X509Certificate>
-            </ds:X509Data>
-         </ds:KeyInfo>
-      </md:KeyDescriptor>
-      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-b941807951-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
-      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://orgfarm-b941807951-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
-      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-b941807951-dev-ed.develop.my.salesforce.com?sc=0LEfj000002dBNR" index="0" isDefault="true"/>
+       <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-5279fb6c2c-dev-ed.develop.my.salesforce.com" index="0" isDefault="true"/>
       <md:AttributeConsumingService isDefault="true">
          <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Salesforce.com</md:ServiceName>
          <md:RequestedAttribute Name="User.Email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
